@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-catalog-service",
+  "version": "1.0.0",
+  "description": "CRUD Operations on Catalog Service",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jain-chetan/nodejs-catalog-service.git"
+  },
+  "author": "Chetan Jain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jain-chetan/nodejs-catalog-service/issues"
+  },
+  "homepage": "https://github.com/jain-chetan/nodejs-catalog-service#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "http-status-codes": "^1.4.0",
+    "logger": "0.0.1",
+    "mongoose": "^5.9.7",
+    "nodemon": "^2.0.3"
+  }
+}
